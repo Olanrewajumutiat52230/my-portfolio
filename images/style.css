@@ -1,0 +1,304 @@
+body{
+    font-family: sans-serif;
+
+}
+nav{padding: 5px;
+    padding-left: 5px;
+    display: flex;
+    margin: 0px;
+    background-color: rgb(208, 183, 121);
+    align-content: center;
+}
+nav a{font-weight: 600;
+   color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 30px;
+    top:0;
+    padding: 0px; 
+    
+}
+nav img{
+    border-radius: 50%;
+    width: 100px;
+    height:100px;
+}
+ img{width: 100%;
+    height: 100%;
+
+} 
+.home div[
+  h2,p  {
+    position: relative;
+    top: 30px ;
+  }
+]
+
+/*styling the div text at home page*/
+.container-1{
+   /* height: 70%;
+    border-width: 6px;
+    border-style: solid;
+    border-color:white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 30px;*/
+}
+/* STYLING THE HOME PAGE*/
+.sub-container{
+    border-radius: 5px;
+    margin: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    height: 90%;
+}
+
+.sub-container div{
+    padding: 80px;
+    background-color: rgb(220, 244, 236);
+    border-radius: 15px;
+    transition: background-color 1s;
+
+}
+
+.sub-container div:hover{
+    background-color: red;
+}
+/*styling the About*/
+h2~p{
+    justify-content: center;
+    align-content: center;
+    margin-left: 90px;
+    
+    
+}
+.container-q{
+  display: flex;
+}
+.container-q .image{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(163, 187, 179);
+}
+
+.container-q .image img{
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+}
+
+.paragraph{
+    background-color: rgb(201, 209, 221);
+    padding-left: 30px;
+    width: 80%;
+}
+
+.paragraph p.red{
+    color: red;
+}
+
+.paragraph h1{
+    font-size: 50px;
+}
+
+.paragraph h1+p{
+    width: 60%;
+    font-size: 18px;
+    line-height: 2;
+}
+
+h2,h3{
+    text-align: centre;
+    margin-left: 90px;
+    justify-content: center;
+    text-align: justify;
+
+}
+.container{
+    height: 50%;
+    border-width: 6px;
+    border-style: solid;
+    border-color:white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 30px;
+
+}
+.portfolioimages{
+    display: flex;
+}
+
+
+.subbing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*styling the portfolio*/
+a{
+    text-decoration: none;
+    
+}
+h2+h3{
+justify-content: center;
+align-content: center;
+margin-left: 90px;
+}
+
+/*styling the awards*/
+h2~p{
+    justify-content: space-between;
+    align-content: center;
+    display: flex;
+    margin-left: 80px;
+}
+
+.award{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-auto-columns: 100px ;
+    grid-auto-rows: 100px;
+    gap: 40px;
+    grid-auto-flow: 2;
+}
+
+[class^="grid-items"]{
+    outline: 2px dashed rgb(208, 188, 188);
+    border: 5px solid blanchedalmond;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    
+}
+.my-firstgrid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 300px 300px 300px;
+    grid-auto-columns:200px 200px ;
+    grid-auto-rows:200px 200px ;
+    background-color: black;
+    flex-direction: row;
+    
+    }
+
+grid-item-1{
+grid-row:1;
+grid-row:2;
+}
+
+
+
+
+
+
+
+
+
+/*styling the contacts*/
+h2,h3{
+    text-align: centre;
+    margin-left: 90px;
+    justify-content: center;
+    text-align: justify;
+
+}
+h4+p{ text-align: centre;
+    margin-right: 90px;
+    justify-content: space-between;
+    text-align: start;
+
+}
+
+
+
+.icon{
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+/*forms*/
+/* {
+    padding: 15px;
+    margin: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+} */
+
+form{
+    position:relative ;
+    width: 100%;
+    background-color: aliceblue;
+    margin-left: 20%;
+    height: 90%;
+    padding: 20px;
+    gap: 15px;
+    
+}
+#name ,#phonenumber{
+    width: 90%;
+    height: 5%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#email{
+    width: 80%;
+    height: 5%;
+    padding: 10px;
+    margin-bottom:10px;
+}
+ #yourmessage{
+    width: 60%;
+    height: 300px;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+button{
+    width: 30%;
+    height: 5%;
+    padding: 10px;
+}
+
+label{
+    display: block;
+}
+.name, .number{
+    width: 41%;
+    display: inline-block;
+}
+.name{
+    margin-right: 10px;
+}
+.contacts{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 50%;
+    padding-bottom: 50px;
+}
+.container-c{
+    background-color: red;
+    margin-left: 2%;
+    height: 70%;
+    padding: 20px;
+    gap: 15px;
+    width: 35%;
+}
+    
+
+
+
+
+
+
+
+
+
